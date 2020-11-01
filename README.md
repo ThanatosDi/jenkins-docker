@@ -6,7 +6,7 @@ git clone https://github.com/ThanatosDi/jenkins-docker
 cd jenkins-docker
 docker build -t thanatosdi/jenkins:1.0 .
 ```
-在 Host 建立一個資料夾保存 Docker 的資料  
+在 Host 建立一個資料夾保存 Docker(jenkins) 的資料  
 ```bash
 mkdir /var/jenkins_home
 sudo chmod 777 /var/jenkins_home
